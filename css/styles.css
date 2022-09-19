@@ -42,6 +42,7 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--textColor);
+    margin: 0;
 }
 
 body ul {
@@ -64,6 +65,7 @@ img {
 }
 
 .main-description {
+    text-align: center;
     background-color: var(--backgroundDarkColor);
 }
 
@@ -88,6 +90,7 @@ img {
 }
 
 .team {
+    padding-top: 94px;
     background-color: var(--backgroundGreyColor);
 }
 
@@ -118,6 +121,9 @@ img {
 }
 
 .title-section {
+    text-align: center;
+    margin-bottom: 50px;
+
     color: var(--headTextColor);
     line-height: 1.17;
     font-size: 36px;
@@ -145,7 +151,6 @@ img {
     letter-spacing: 0.02em;
     color: var(--whiteColor);
     border: 1px solid var(--shadowColor);
-
 }
 
 
@@ -237,6 +242,11 @@ footer .contacts a:hover {
 }
 
 .order-button {
+    display: inline-block;
+    margin-bottom: 200px;
+    padding: 10px 32px;
+
+
     background: var(--blueColor);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -245,10 +255,8 @@ footer .contacts a:hover {
     font-size: 16px;
     line-height: 1.88;
     color: var(--whiteColor);
-    padding: 0;
     border: none;
     cursor: pointer;
-
 }
 
 .order-button:hover,
@@ -276,6 +284,8 @@ footer .contacts a:hover {
 }
 
 .filter-button {
+    padding: 6px 22px;
+
     background: var(--backgroundGreyColor);
     border: none;
     cursor: pointer;
@@ -324,4 +334,60 @@ footer .contacts a:hover {
 
 .site-nav {
     display: flex;
+    margin-left: 93px;
+}
+
+.site-nav .item {
+    margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+    margin-right: 0;
+}
+
+.site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.contacts-nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.contacts-nav .item+.item {
+    margin-left: 50px;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.main-title {
+    margin-bottom: 30px;
+}
+
+.main-description .container {
+    padding-top: 200px;
+    width: 696px;
+}
+
+.exeption-title {
+    margin-bottom: 10px;
+}
+
+.exeptions {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.what-do {
+    padding-bottom: 94px;
 }
