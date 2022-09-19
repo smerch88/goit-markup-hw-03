@@ -19,33 +19,37 @@
   </head>
   <body>
     <header class="page-header">
-      <nav>
-        <div class="logo">
-          <a href="index.html" class="logo-link">Web<span>Studio</span></a>
-        </div>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <a href="index.html" class="logo-link">Web<span>Studio</span></a>
+          </div>
+          <ul class="site-nav">
+            <li class="current-page">
+              <a href="index.html">Студія</a>
+            </li>
+            <li><a href="portfolio.html">Портфоліо</a></li>
+            <li><a href="#">Контакти</a></li>
+          </ul>
+        </nav>
         <ul>
-          <li class="current-page">
-            <a href="index.html">Студія</a>
+          <li class="contacts">
+            <a href="mailto:info@devstudio.com">info@devstudio.com </a>
           </li>
-          <li><a href="portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li class="contacts">
+            <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li class="contacts">
-          <a href="mailto:info@devstudio.com">info@devstudio.com </a>
-        </li>
-        <li class="contacts">
-          <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <section class="main-description">
-        <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="order-button">Замовити послугу</button>
+        <div class="container">
+          <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="order-button">Замовити послугу</button>
+        </div>
       </section>
-      <section class="exeptions">
+      <section class="exeptions container">
         <h2 class="hidden">Особливості</h2>
         <ul>
           <li>
@@ -78,70 +82,76 @@
         </ul>
       </section>
       <section>
-        <h2 class="title-section">Чим ми займаємося</h2>
-        <ul>
-          <li>
-            <img src="images/1.jpg" width="370px" alt="coding" />
-          </li>
-          <li>
-            <img src="images/2.jpg" width="370px" alt="ui/ux" />
-          </li>
-          <li>
-            <img src="images/3.jpg" width="370px" alt="design" />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="title-section">Чим ми займаємося</h2>
+          <ul>
+            <li>
+              <img src="images/1.jpg" width="370px" alt="coding" />
+            </li>
+            <li>
+              <img src="images/2.jpg" width="370px" alt="ui/ux" />
+            </li>
+            <li>
+              <img src="images/3.jpg" width="370px" alt="design" />
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="team">
-        <h2 class="title-section">Наша команда</h2>
-        <ul>
-          <li class="member-box">
-            <img src="images/4.jpg" width="270" alt="Ігор Дем'яненко" />
-            <h3 class="team-title">Ігор Дем'яненко</h3>
-            <p class="team-text">Product Designer</p>
-          </li>
-          <li class="member-box">
-            <img src="images/5.jpg" width="270" alt="Ольга Рєпіна" />
-            <h3 class="team-title">Ольга Рєпіна</h3>
-            <p class="team-text">Frontend Developer</p>
-          </li>
-          <li class="member-box">
-            <img src="images/6.jpg" width="270" alt="Микола Тарасов" />
-            <h3 class="team-title">Микола Тарасов</h3>
-            <p class="team-text">Marketing</p>
-          </li>
-          <li class="member-box">
-            <img src="images/7.jpg" width="270" alt="Михайло Єрмаков" />
-            <h3 class="team-title">Михайло Єрмаков</h3>
-            <p class="team-text">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="title-section">Наша команда</h2>
+          <ul>
+            <li class="member-box">
+              <img src="images/4.jpg" width="270" alt="Ігор Дем'яненко" />
+              <h3 class="team-title">Ігор Дем'яненко</h3>
+              <p class="team-text">Product Designer</p>
+            </li>
+            <li class="member-box">
+              <img src="images/5.jpg" width="270" alt="Ольга Рєпіна" />
+              <h3 class="team-title">Ольга Рєпіна</h3>
+              <p class="team-text">Frontend Developer</p>
+            </li>
+            <li class="member-box">
+              <img src="images/6.jpg" width="270" alt="Микола Тарасов" />
+              <h3 class="team-title">Микола Тарасов</h3>
+              <p class="team-text">Marketing</p>
+            </li>
+            <li class="member-box">
+              <img src="images/7.jpg" width="270" alt="Михайло Єрмаков" />
+              <h3 class="team-title">Михайло Єрмаков</h3>
+              <p class="team-text">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="page-footer">
-      <address class="adress-footer">
-        <div class="logo">
-          <a href="index.html">Web<span class="footer-span">Studio</span></a>
-        </div>
-        <ul>
-          <li>
-            <a
-              class="adress-link"
-              href="http://maps.google.com/?q=м.Київ,пр-тЛесіУкраїнки,26"
-              target="_blank"
-              rel="noopener nofollow noreferrer"
-              >м. Київ, пр-т Лесі Українки, 26
-            </a>
-          </li>
-          <li class="contacts">
-            <a href="mailto:info@devstudio.com" class="footer-email"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contacts">
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <address class="adress-footer">
+          <div class="logo">
+            <a href="index.html">Web<span class="footer-span">Studio</span></a>
+          </div>
+          <ul>
+            <li>
+              <a
+                class="adress-link"
+                href="http://maps.google.com/?q=м.Київ,пр-тЛесіУкраїнки,26"
+                target="_blank"
+                rel="noopener nofollow noreferrer"
+                >м. Київ, пр-т Лесі Українки, 26
+              </a>
+            </li>
+            <li class="contacts">
+              <a href="mailto:info@devstudio.com" class="footer-email"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts">
+              <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
