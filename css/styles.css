@@ -1,0 +1,272 @@
+:root {
+    --blueColor: #2196F3;
+    --whiteColor: #FFF;
+    --textColor: #757575;
+    --headTextColor: #212121;
+    --backgroundDarkColor: #2F303A;
+    --backgroundGreyColor: #F5F4FA;
+    --linkGreyColor: rgba(255, 255, 255, 0.6);
+    --shadowColor: #ECECEC;
+    --backgroundButtonColor: #188CE8;
+    --backgroundFilter: #F5F5F5;
+}
+
+address {
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--textColor);
+}
+
+body ul {
+    list-style-type: none;
+}
+
+.hidden {
+    text-indent: -9999px;
+    /* sends the text off-screen */
+    white-space: nowrap;
+    /* because only the first line is indented */
+}
+
+.main-description {
+    background-color: var(--backgroundDarkColor);
+}
+
+.main-description .main-title {
+    text-transform: uppercase;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: var(--whiteColor);
+    font-weight: 900;
+    font-size: 44px;
+}
+
+.exeptions {
+
+    line-height: 1.14;
+    font-size: 14px;
+}
+
+.exeptions .exeption-title {
+    font-size: 14px;
+    color: var(--headTextColor);
+}
+
+.team {
+    background-color: var(--backgroundGreyColor);
+}
+
+.team .exeption-title {
+    color: var(--headTextColor);
+    line-height: 1.188;
+    font-size: 16px;
+}
+
+.team .team-text {
+    font-size: 16px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
+}
+
+.team .team-title {
+    color: var(--headTextColor);
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.member-box {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background: var(--whiteColor);
+}
+
+.title-section {
+    color: var(--headTextColor);
+    line-height: 1.17;
+    font-size: 36px;
+}
+
+.logo {
+    font-size: 26px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--blueColor);
+}
+
+
+
+.logo span {
+    color: var(--headTextColor);
+}
+
+.page-header {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--whiteColor);
+    border: 1px solid var(--shadowColor);
+
+}
+
+
+.page-header a:link,
+.page-footer a:link {
+    text-decoration: none;
+    color: var(--headTextColor);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+
+.page-footer a:link {
+    color: var(--whiteColor);
+}
+
+.page-header .logo a:link,
+.page-footer .logo a:link {
+    font-size: 26px;
+}
+
+.page-header a:visited {
+    color: var(--headTextColor);
+}
+
+.contacts a {
+    font-size: 14px;
+    line-height: 1.71px;
+}
+
+.adress-footer {
+    font-size: 14px;
+}
+
+.contacts a:link {
+    color: var(--textColor);
+    letter-spacing: 0.03em;
+    line-height: 1.14;
+    font-weight: 500;
+}
+
+footer .contacts a:link {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+}
+
+.contacts a:visited {
+    color: var(--textColor);
+}
+
+.current-page a,
+.current-page a:visited {
+    color: var(--blueColor);
+}
+
+.page-header a:hover,
+.page-header a:focus,
+.contacts a:hover,
+.contacts a:focus,
+.page-footer a:hover,
+.page-footer a:focus,
+footer .contacts a:hover,
+footer .contacts a:hover {
+    color: var(--blueColor)
+}
+
+.page-header .logo a:visited,
+.logo a:hover,
+.logo a:focus,
+.logo a {
+    color: var(--blueColor);
+}
+
+.page-header .logo .logo-link {
+    color: var(--blueColor);
+}
+
+.page-footer {
+    background-color: var(--backgroundDarkColor);
+}
+
+.logo .footer-span {
+    color: var(--whiteColor);
+}
+
+.page-footer .adress-link {
+    color: var(--whiteColor);
+}
+
+.order-button {
+    background: var(--blueColor);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--whiteColor);
+    padding: 0;
+    border: none;
+    cursor: pointer;
+
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: var(--backgroundButtonColor);
+}
+
+.filter-link {
+    line-height: 2;
+    text-decoration: none;
+    color: var(--headTextColor);
+    letter-spacing: 0.06em;
+}
+
+.filter-description {
+    font-size: 16px;
+    color: var(--textColor);
+    line-height: 1.875;
+    letter-spacing: 0.03em
+}
+
+.filter-item .filter-title {
+    font-size: 18px;
+    letter-spacing: 0.06em;
+}
+
+.filter-button {
+    background: var(--backgroundGreyColor);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    color: var(--headTextColor);
+    font-weight: 500;
+    font-family: 'Roboto';
+    border-radius: 4px;
+}
+
+.filter-item {
+    border: 1px solid #EEEEEE;
+    background: var(--whiteColor);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background: var(--blueColor);
+    color: var(--whiteColor);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
