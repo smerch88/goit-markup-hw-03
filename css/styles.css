@@ -91,8 +91,8 @@ img {
 }
 
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    /* padding-top: 94px;
+    padding-bottom: 94px; */
 
     background-color: var(--backgroundGreyColor);
 }
@@ -253,7 +253,6 @@ footer .contacts a:hover {
 
 .order-button {
     display: inline-block;
-    margin-bottom: 200px;
     padding: 10px 32px;
 
 
@@ -347,7 +346,7 @@ footer .contacts a:hover {
     gap: 30px;
     list-style: none;
     justify-content: center;
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
 }
 
 .portfolio-items .content {
@@ -397,7 +396,8 @@ footer .contacts a:hover {
 }
 
 .main-description .container {
-    padding-top: 200px;
+    padding-top: 106px;
+    padding-bottom: 106px;
     width: 696px;
 }
 
@@ -405,14 +405,14 @@ footer .contacts a:hover {
     margin-bottom: 10px;
 }
 
-.exeptions {
+/* .exeptions {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
-.what-do {
+/* .what-do {
     padding-bottom: 94px;
-}
+} */
 
 .items {
     display: flex;
@@ -459,5 +459,10 @@ footer .contacts a:hover {
 
 .filter-section {
     margin: 0;
+    /* padding-top: 94px; */
+}
+
+.section {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
