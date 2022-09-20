@@ -58,6 +58,7 @@ img {
 /* ------------------------------ */
 
 .hidden {
+    font-size: 0px;
     text-indent: -9999px;
     /* sends the text off-screen */
     white-space: nowrap;
@@ -138,8 +139,6 @@ img {
 }
 
 .logo {
-    padding-top: 60px;
-    padding-bottom: 20px;
 
     font-size: 26px;
     font-family: 'Raleway';
@@ -283,6 +282,9 @@ footer .contacts a:hover {
 }
 
 .filter-description {
+    padding-left: 24px;
+    padding-bottom: 20px;
+
     font-size: 16px;
     color: var(--textColor);
     line-height: 1.875;
@@ -290,6 +292,9 @@ footer .contacts a:hover {
 }
 
 .filter-item .filter-title {
+    padding-top: 20px;
+    padding-left: 24px;
+
     font-size: 18px;
     letter-spacing: 0.06em;
 }
@@ -431,4 +436,28 @@ footer .contacts a:hover {
 
 .what-do .items .item:last-child {
     margin-right: 0px;
+}
+
+.page-footer .logo {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.filter-items {
+    margin-right: 8px;
+}
+
+.filter-items:last-child {
+    margin-right: 0;
+}
+
+.filter-section {
+    margin: 0;
+    padding-top: 94px;
 }

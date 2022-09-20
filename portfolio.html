@@ -14,41 +14,45 @@
     />
   </head>
   <body>
-      <header class="page-header container">
-        <nav>
+    <header class="page-header">
+      <div class="container main-header">
+        <nav class="main-nav">
           <div class="logo">
             <a href="index.html" class="logo-link">Web<span>Studio</span></a>
           </div>
-          <ul>
-            <li>
-              <a href="index.html">Студія</a>
+          <ul class="site-nav">
+            <li class=" item">
+              <a href="index.html" class="link">Студія</a>
             </li>
-            <li class="current-page"><a href="portfolio.html">Портфоліо</a></li>
-            <li><a href="#">Контакти</a></li>
+            <li class="current-page item">
+              <a href="portfolio.html" class="link">Портфоліо</a>
+            </li>
+            <li class="item"><a href="#" class="link">Контакти</a></li>
           </ul>
         </nav>
-        <ul>
-          <li class="contacts">
+        <ul class="contacts-nav">
+          <li class="contacts item">
             <a href="mailto:info@devstudio.com">info@devstudio.com </a>
           </li>
-          <li class="contacts">
+          <li class="contacts item">
             <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
           </li>
         </ul>
-      </header>
+      </div>
+    </header>
       <main>
-        <section class="container">
+        <section class="container filter-section">
           <h1 class="hidden">Портфоліо</h1>
-          <ul>
-            <li><button type="button" class="filter-button">Усі</button></li>
-            <li>
+          <ul class="filter-buttons">
+            <li class="filter-items"><button type="button" class="filter-button">Усі</button></li>
+            <li class="filter-items">
               <button type="button" class="filter-button">Веб-сайти</button>
             </li>
-            <li>
+            <li class="filter-items">
               <button type="button" class="filter-button">Додатки</button>
             </li>
-            <li><button type="button" class="filter-button">Дизайн</button></li>
-            <li>
+            <li class="filter-items"><button type="button" class="filter-button">Дизайн</button></li>
+            <li class="filter-items">
               <button type="button" class="filter-button">Маркетинг</button>
             </li>
           </ul>
@@ -119,12 +123,13 @@
           </ul>
         </section>
       </main>
-      <footer class="page-footer container">
+    <footer class="page-footer">
+      <div class="container">
         <address class="adress-footer">
           <div class="logo">
             <a href="index.html">Web<span class="footer-span">Studio</span></a>
           </div>
-          <ul>
+          <ul class="footer-adress">
             <li>
               <a
                 class="adress-link"
@@ -135,14 +140,17 @@
               </a>
             </li>
             <li class="contacts">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a href="mailto:info@devstudio.com" class="footer-email"
+                >info@devstudio.com</a
+              >
             </li>
             <li class="contacts">
               <a href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
-      </footer>
+      </div>
+    </footer>
     </div>
   </body>
 </html>
