@@ -58,6 +58,10 @@ img {
 
 /* ------------------------------ */
 
+.exeption-text {
+    line-height: 1.7;
+}
+
 .hidden {
     font-size: 0px;
     text-indent: -9999px;
@@ -115,6 +119,7 @@ img {
     letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.19;
+    font-weight: 500;
 }
 
 .member-box {
@@ -395,7 +400,7 @@ footer .contacts a:hover {
 
 .items {
     display: flex;
-    justify-content: center;
+
 }
 
 .items .item {
@@ -449,4 +454,5 @@ footer .contacts a:hover {
 .card-inner {
     padding: 20px 24px;
     border: 1px solid var(--frameColor);
+    border-top: none;
 }
