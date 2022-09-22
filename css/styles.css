@@ -394,10 +394,6 @@ footer .contacts a:hover {
     margin-bottom: 10px;
 }
 
-.what-do .section {
-    padding-top: 0;
-}
-
 .items {
     display: flex;
 
@@ -441,6 +437,10 @@ footer .contacts a:hover {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.what-do {
+    padding-top: 0;
 }
 
 .padding-card {
